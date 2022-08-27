@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border-collapse: collapse;
+    border-top: 12px solid rgb(198, 192, 192);
+    border-left: 8px solid rgb(198, 192, 192);
+    border-bottom: 10px solid rgb(198, 192, 192);
+    border-right: 8px solid rgb(198, 192, 192);
+}
+.table_head_row{
+    color: lightgray;
+}
+.table_head_row th{
+    font-size: 10px;
+    text-align: left;
+    padding: 13px 32px;
+}
+td{
+    font-size: 11px;
+    text-align: left;
+    padding: 13px 32px;
+}
